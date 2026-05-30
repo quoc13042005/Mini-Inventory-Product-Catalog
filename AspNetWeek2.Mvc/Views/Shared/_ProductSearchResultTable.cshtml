@@ -1,0 +1,38 @@
+@model List<ProductListItemViewModel>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã SKU</th>
+            <th>Tên sản phẩm</th>
+            <th>Nhà cung cấp</th>
+            <th>Nhóm</th>
+            <th>Giá bán</th>
+            <th>Số lượng</th>
+            <th>Trạng thái</th>
+            <th>Chi tiết</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Sku</td>
+                <td>@item.Name</td>
+                <td>@item.Supplier</td>
+                <td>@item.Category</td>
+                <td>@item.PriceText</td>
+                <td>@item.Quantity</td>
+                <td>@item.StockStatus</td>
+                <td>
+                    <a asp-controller="Products"
+                       asp-action="Detail"
+                       asp-route-id="@item.Id">
+                        Xem
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
