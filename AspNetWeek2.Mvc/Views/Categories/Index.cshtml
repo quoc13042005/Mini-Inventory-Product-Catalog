@@ -1,0 +1,27 @@
+@model List<AspNetWeek2.Mvc.Models.Category>
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<h1>Category & Product Relationship</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Products</th>
+            <th>Relationship</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Name</td>
+                <td>@(string.Join(", ", category.Products.Select(p => p.Name)))</td>
+                <td>1 - Many</td>
+            </tr>
+        }
+    </tbody>
+</table>
