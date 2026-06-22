@@ -30,6 +30,10 @@ public class AppDbContext : DbContext
             entity.HasOne(p => p.Category)
                 .WithMany(c => c.Products)
                 .HasForeignKey(p => p.CategoryId);
+                
+            entity.HasIndex(p => p.SKU).IsUnique();
+            entity.Property(p => p.RowVersion).IsRowVersion();
+            entity.HasQueryFilter(p => !p.IsDeleted);
         });
 
         modelBuilder.Entity<Category>().HasData(
@@ -38,9 +42,9 @@ public class AppDbContext : DbContext
         );
 
         modelBuilder.Entity<Product>().HasData(
-            new Product { Id = 1, Name = "Wireless Mouse", Price = 250000, Stock = 10, CategoryId = 1 },
-            new Product { Id = 2, Name = "Mechanical Keyboard", Price = 1350000, Stock = 4, CategoryId = 1 },
-            new Product { Id = 3, Name = "24-Inch Monitor", Price = 3200000, Stock = 3, CategoryId = 2 }
+            new Product { Id = 1, Name = "Wireless Mouse", SKU = "WM-001", Price = 250000, StockQuantity = 10, CategoryId = 1, CreatedAt = new DateTime(2023, 1, 1) },
+            new Product { Id = 2, Name = "Mechanical Keyboard", SKU = "MK-002", Price = 1350000, StockQuantity = 4, CategoryId = 1, CreatedAt = new DateTime(2023, 1, 1) },
+            new Product { Id = 3, Name = "24-Inch Monitor", SKU = "MON-024", Price = 3200000, StockQuantity = 3, CategoryId = 2, CreatedAt = new DateTime(2023, 1, 1) }
         );
     }
 }

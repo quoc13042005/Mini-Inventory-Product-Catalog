@@ -1,0 +1,45 @@
+@model List<AspNetWeek2.Mvc.ViewModels.ProductTrashItemViewModel>
+
+@{
+    ViewData["Title"] = "Trash - Deleted Products";
+}
+
+<div class="page-header">
+    <div>
+        <h2 class="page-title">Trash - Deleted Products</h2>
+    </div>
+</div>
+
+@if (TempData["Success"] != null)
+{
+    <div class="success-box">@TempData["Success"]</div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Deleted At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.DeletedAt?.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <form asp-action="Restore" asp-route-id="@item.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-secondary">Restore</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br/>
+<a asp-action="Index" class="btn btn-secondary">Back to Products</a>

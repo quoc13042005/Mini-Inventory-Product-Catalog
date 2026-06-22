@@ -1,0 +1,41 @@
+@model AspNetWeek2.Mvc.Models.Product
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<div class="page-header">
+    <div>
+        <h2 class="page-title">Delete Product</h2>
+    </div>
+</div>
+
+<div class="warning-box">
+    <h3>Are you sure you want to delete this?</h3>
+</div>
+
+<div class="form-layout">
+    <div class="form-box">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <th>SKU</th>
+                <td>@Model.SKU</td>
+            </tr>
+            <tr>
+                <th>Price</th>
+                <td>@Model.Price.ToString("N0") VND</td>
+            </tr>
+        </table>
+        
+        <br/>
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-secondary" style="background:#dc2626">Delete</button>
+            <a asp-action="Index" class="btn btn-light">Back to List</a>
+        </form>
+    </div>
+</div>

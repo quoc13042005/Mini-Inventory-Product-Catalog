@@ -17,84 +17,99 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
-build_property.EntryPointFilePath = 
 build_property.RootNamespace = AspNetWeek2.Mvc
 build_property.RootNamespace = AspNetWeek2.Mvc
-build_property.ProjectDir = D:\learning\asp.net\lab02\Mini-Inventory-Product-Catalog\AspNetWeek2.Mvc\
+build_property.ProjectDir = /Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 10.0
+build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\learning\asp.net\lab02\Mini-Inventory-Product-Catalog\AspNetWeek2.Mvc
+build_property.MSBuildProjectDirectory = /Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Categories/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/AuditLogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXVkaXRMb2dzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/DataHealth/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUhlYWx0aFxJbmRleC5jc2h0bWw=
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/DataHealth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGF0YUhlYWx0aC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Orders/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlsLmNzaHRtbA==
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Search.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2VhcmNoLmNzaHRtbA==
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Stats.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU3RhdHMuY3NodG1s
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/_ProductCard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0Q2FyZC5jc2h0bWw=
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/_ProductSearchResultTable.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0U2VhcmNoUmVzdWx0VGFibGUuY3NodG1s
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Stats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvU3RhdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Products/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvVHJhc2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/_ProductCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qcm9kdWN0Q2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/learning/asp.net/lab02/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-tctd1t8im7
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/_ProductSearchResultTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qcm9kdWN0U2VhcmNoUmVzdWx0VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Documents/asp.net/lab05/Mini-Inventory-Product-Catalog/AspNetWeek2.Mvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ykbo55sfxq

@@ -21,7 +21,7 @@ public class OrderService : IOrderService
         {
             var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == model.ProductId);
             if (product == null) throw new Exception("Product not found");
-            if (product.Stock < model.Quantity) throw new Exception("Not enough stock");
+            if (product.StockQuantity < model.Quantity) throw new Exception("Not enough stock");
 
             var order = new Order
             {
@@ -42,7 +42,7 @@ public class OrderService : IOrderService
             
             _context.OrderItems.Add(item);
             
-            product.Stock -= model.Quantity;
+            product.StockQuantity -= model.Quantity;
             
             await _context.SaveChangesAsync();
             await transaction.CommitAsync();

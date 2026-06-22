@@ -98,6 +98,18 @@ namespace AspNetWeek2.Mvc.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(150)
@@ -106,12 +118,28 @@ namespace AspNetWeek2.Mvc.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("Stock")
+                    b.Property<byte[]>("RowVersion")
+                        .IsConcurrencyToken()
+                        .IsRequired()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("BLOB");
+
+                    b.Property<string>("SKU")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("StockQuantity")
                         .HasColumnType("INTEGER");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("SKU")
+                        .IsUnique();
 
                     b.ToTable("Products", (string)null);
 
@@ -120,25 +148,37 @@ namespace AspNetWeek2.Mvc.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
+                            CreatedAt = new DateTime(2023, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
                             Name = "Wireless Mouse",
                             Price = 250000m,
-                            Stock = 10
+                            RowVersion = new byte[0],
+                            SKU = "WM-001",
+                            StockQuantity = 10
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 1,
+                            CreatedAt = new DateTime(2023, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
                             Name = "Mechanical Keyboard",
                             Price = 1350000m,
-                            Stock = 4
+                            RowVersion = new byte[0],
+                            SKU = "MK-002",
+                            StockQuantity = 4
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 2,
+                            CreatedAt = new DateTime(2023, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
                             Name = "24-Inch Monitor",
                             Price = 3200000m,
-                            Stock = 3
+                            RowVersion = new byte[0],
+                            SKU = "MON-024",
+                            StockQuantity = 3
                         });
                 });
 

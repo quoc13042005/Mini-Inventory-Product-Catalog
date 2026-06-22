@@ -1,0 +1,36 @@
+@model List<string>
+
+@{
+    ViewData["Title"] = "Audit Logs";
+}
+
+<div class="page-header">
+    <div>
+        <h2 class="page-title">Audit Logs</h2>
+    </div>
+</div>
+
+<div class="form-box">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Log Entry</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr><td>No logs found today.</td></tr>
+            }
+            else
+            {
+                foreach (var log in Model)
+                {
+                    <tr>
+                        <td>@log</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

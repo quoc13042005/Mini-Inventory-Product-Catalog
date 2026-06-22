@@ -24,7 +24,7 @@ public class ProductService : IProductService
             Id = p.Id,
             Name = p.Name,
             Price = p.Price,
-            Stock = p.Stock,
+            StockQuantity = p.StockQuantity,
             CategoryName = p.Category != null ? p.Category.Name : "N/A"
         }).ToList();
     }
@@ -42,7 +42,7 @@ public class ProductService : IProductService
             Category = p.Category?.Name ?? "N/A",
             Supplier = "MiniShop Supplier",
             UnitPrice = p.Price,
-            Quantity = p.Stock,
+            Quantity = p.StockQuantity,
             MinStock = 5,
             LastUpdatedAt = DateTime.Now
         };
